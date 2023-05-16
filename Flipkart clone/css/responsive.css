@@ -1,6 +1,7 @@
 @media screen and (max-width:874px){
     nav{
         flex-direction: column;
+        justify-content: space-around ;
     }
     .logo{
         margin: 10px 0px;
@@ -8,13 +9,7 @@
     .login{
         margin: 10px 0px;
     }
-}
-
-@media screen and (max-width:600px) {
-    nav{
-       justify-content: space-around ;
-    }
-
+    
     .search {
         width: 70vw;
     }
@@ -26,5 +21,4 @@
     .categories IMG{
         width:10vh;
     }
- 
 }
