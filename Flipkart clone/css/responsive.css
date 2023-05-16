@@ -1,0 +1,30 @@
+@media screen and (max-width:874px){
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 10px 0px;
+    }
+    .login{
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    nav{
+       justify-content: space-around ;
+    }
+
+    .search {
+        width: 70vw;
+    }
+    .categories{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .categories IMG{
+        width:10vh;
+    }
+ 
+}

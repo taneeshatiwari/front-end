@@ -1,0 +1,101 @@
+ /* IMPORT FONT FROM GOOGLE FONTS */
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+   font-family: 'Ubuntu', sans-serif;
+   background-color:#2874f0;
+  
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* logo */
+img{
+    height:50px;
+}
+/* searchbar */
+.search {
+    background-color: white;
+    width:45vw;
+    height:32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 25px; 
+    padding:0px 5px;
+
+}
+
+.search input{
+    font-family: 'Ubuntu', sans-serif;
+    flex-grow:1;
+}
+
+.login{
+    background-color: white;
+    height:31px;
+    width: 12vw;
+}
+
+.login a{
+    color:#2874f0;
+    text-decoration: none;
+}
+nav ul{
+    height:60px;
+    display:flex;
+    align-items: center;
+    margin:0px 30px;
+} 
+
+nav ul li{
+    list-style: none;
+    padding:0px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+   font-weight: bolder;
+}
+
+
+/* MAIN */
+.container{
+    min-height: calc(100vh - 60px - 10vh);
+}
+.categories{
+    height:15vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 17px;
+    padding: 10PX;
+}
+
+.categories img{
+    height: 10vw;
+}
+
+
+/* FOOTER */
+footer{
+    height:10vh;
+    background-color: #172337;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
