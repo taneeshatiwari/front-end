@@ -1,2 +1,0 @@
-# front-end
-ecommerce clone
